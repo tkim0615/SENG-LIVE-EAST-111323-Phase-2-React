@@ -99,6 +99,12 @@ function Card() {
 }
 ```
 
+### JSX
+- JSX is simply put a combination of HTML + JS. When JS code is used within JSX it's inclosed in {} curly braces 
+- JSX returns only a single fragment, the best solution is <></> an empty bracket which helps to avoid confusing html structure.
+- <></> pointy bracket are used for HTML tags or when calling child component
+
+
 ### Props
 
 When you create components, one way to make them dynamic and reusable is by passing in props. For example, if we wanted to create several cards on our page using a Card component, we could do so like this:

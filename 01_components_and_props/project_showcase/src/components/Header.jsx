@@ -2,7 +2,7 @@
 
 export let Header = () => {
 
-    console.log("----hello from header---")
+    // console.log("----hello from header---")
 
     return (
         <>

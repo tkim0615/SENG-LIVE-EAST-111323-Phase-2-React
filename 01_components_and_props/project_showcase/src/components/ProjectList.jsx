@@ -11,7 +11,7 @@ export default function ProjectList({projects}) { //object destructuring
     // // console.log("======", projects) //[] value
 
     // let { projects } = props //object destructuring
-    console.log("#######", projects)  //[] value
+    // console.log("#######", projects)  //[] value
     
     //////////////////////////
     //.map vs .forEach
@@ -22,9 +22,9 @@ export default function ProjectList({projects}) { //object destructuring
     // console.log(projectMap) //[]
 
     /////////.map multiline/////////////////
-    const projectMapMultiLine = projects.map((eachP, second, third) => {
-        console.log(second, third)
-        return <ProjectItem project={eachP} key={second}/>
+    // console.log(projects)
+    const projectMapMultiLine = projects.map((eachP) => {
+        return <ProjectItem project={eachP} key={eachP.id}/>
     })
     console.log(projectMapMultiLine) //[]
 
